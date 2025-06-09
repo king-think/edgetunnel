@@ -1,0 +1,12 @@
+# Top-level configuration
+name = "v2work"
+main = "main/_worker.js"
+compatibility_date = "2025-06-09"
+
+workers_dev = false
+route = { pattern = "v2work.686365.xyz/*", zone_name = "686365.xyz" }
+
+kv_namespaces = [
+  { binding = "KV_BINDING", id = "54d9f7ba45ff47838b4f4cc2f6c3f19e" }
+]
+
